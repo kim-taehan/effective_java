@@ -11,7 +11,7 @@ import java.lang.reflect.InvocationTargetException;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.*;
 
-@DisplayName("인스턴스화를 막으려거든 private 생성자를 사용하라")
+@DisplayName("[item4] 인스턴스화를 막으려거든 private 생성자를 사용하라")
 class Item4Test {
 
     @DisplayName("java 리플렉션으로 인스터스 얻어올때 애러가 발생한다.")
