@@ -1,4 +1,4 @@
-package org.developx.effective_java.part1.itme6;
+package org.developx.effective_java.part1.item6;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
