@@ -19,4 +19,5 @@
 
 
 - [Item10: equals는 일반 규약을 지켜 재정의하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem10)
+- [Item11: equals을 재정의하려거든 hashCode 도 재정의하라](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem11)
 
