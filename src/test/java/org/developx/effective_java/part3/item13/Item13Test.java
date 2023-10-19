@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@DisplayName("[Item14] clone 재정의는 주의해서 진행하라.")
-class Item14Test {
+@DisplayName("[Item13] clone 재정의는 주의해서 진행하라.")
+class Item13Test {
 
     @DisplayName("가변상태를 참조하는 클래스용 clone 메서드")
     @Test
