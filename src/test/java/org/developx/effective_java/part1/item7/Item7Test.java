@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.WeakHashMap;
 
-@DisplayName("다 쓴 객체 참조를 해제해라.")
+@DisplayName("[item7] 다 쓴 객체 참조를 해제해라.")
 class Item7Test {
 
     @DisplayName("외부에서 키를 참조하는 동안만 엔트리가 살아 있는 캐시인 경우 사용 가능")

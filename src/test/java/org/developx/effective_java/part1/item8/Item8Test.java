@@ -3,7 +3,7 @@ package org.developx.effective_java.part1.item8;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("finalizer와 cleaner 사용을 피하라")
+@DisplayName("[item8] finalizer와 cleaner 사용을 피하라")
 class Item8Test {
 
     @DisplayName("AutoCloseable 인터페이스를 구현하고, 인스터스를 다쓰고 나면 close 메서드 직접 호출")

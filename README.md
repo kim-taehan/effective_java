@@ -9,3 +9,4 @@
 - [Item6: 불필요한 객체 생성을 피하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart1%2Fitem6)
 - [Item7: 다 쓴 객체 참조를 해제해라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart1%2Fitem7)
 - [Item8: finalizer와 cleaner 사용을 피하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart1%2Fitem8)
+- [Item9: try-finally보다 try-with-resources를 사용하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart1%2Fitem9)
