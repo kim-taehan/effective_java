@@ -40,3 +40,6 @@ public 클래스에서 가변 필드를 직접 노출하해서 안된다 (불변
 package 클래스나 중첩 private 클래스에서는 노출해도 큰 문제가 없다.
 ```
 
+- [Item17: 변경 가능성을 최소화하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem17)
+```text
+```
