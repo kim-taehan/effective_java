@@ -50,4 +50,13 @@
 
 - [Item18: 상속보다는 컴포지션을 사용하라](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem18)
 ```text
+- 여기서 상속(extends) 와 구현(implements)을 의미하는 것은 아니다.
+- private 필드로 기존 클래스의 인스턴스를 참조하게하는 컴포지션 방식
+```
+
+- [Item19: 상속을 고려해 설계하고 문서화하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem19)
+```text
+- 상속용 클래스는 재정의할 수 있는 메서드들을 내부적으로 어떻게 이용하는지(자기사용) 문서로 남겨야 한다. 
+- 좋은 API 문서란 '어떻게'가 아닌 '무엇'을 하는지를 설명 (@implSpec)
+- 상속용 클래스의 생성자는 직접적으로든 간접적으로든 재정의 가능 메서드를 호출해서는 안 된다.
 ```
