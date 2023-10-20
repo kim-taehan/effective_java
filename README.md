@@ -17,9 +17,12 @@
 > Object 에서 final 이 아닌 메서드를 언제 어떻게 재정의 해야 되는지 설명  
 > 참고 final 이 아닌 메서드: equals, hashCode, toString, clone, finalize
 
-
 - [Item10: equals는 일반 규약을 지켜 재정의하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem10)
 - [Item11: equals을 재정의하려거든 hashCode 도 재정의하라](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem11)
 - [Item12: toString을 항상 재정의하라](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem12)
 - [Item13: clone 재정의는 주의해서 진행하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem13)
-  
+- [Item14: Comparable 을 구현할지 고려하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem14)
+
+## 4장 
+
+
