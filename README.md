@@ -27,12 +27,16 @@
 ## 4장 클래스와 인터페이스 
 > 클래스와 인터페이스를 쓰기 편하고, 견고하며, 유연하게 만드는 방법
 
-- [Item15: 클래스와 멤버의 접근 권한을 최소화하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart3%2Fitem15)
+- [Item15: 클래스와 멤버의 접근 권한을 최소화하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem15)
 ```text
 모든 클래스와 멤버의 접근성을 가능한 좁히자. 
 package-private (이 접근제어자 사용도 고려)
 배열, Collection 멤버는 불변리스트 만들어서 넘기던가 복사본을 넘기는 방식으로 진행
 단순한 vo 객체의 경우 record 객체 생성을 고려
 ```
-
+- [Item16: public 클래스에서 public 필드가 아닌 접근자 메서드를 사용하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem16)
+```text
+public 클래스에서 가변 필드를 직접 노출하해서 안된다 (불변필드도 조심)
+package 클래스나 중첩 private 클래스에서는 노출해도 큰 문제가 없다.
+```
 
