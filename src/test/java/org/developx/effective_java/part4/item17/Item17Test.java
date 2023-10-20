@@ -4,10 +4,8 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @DisplayName("[item17] 변경 가능성을 최소화하라.")
-class Item17 {
+class Item17Test {
     @DisplayName("불변객체는 변하지 않는다.")
     @Test
     void test960(){

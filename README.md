@@ -29,17 +29,25 @@
 
 - [Item15: 클래스와 멤버의 접근 권한을 최소화하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem15)
 ```text
-모든 클래스와 멤버의 접근성을 가능한 좁히자. 
-package-private (이 접근제어자 사용도 고려)
-배열, Collection 멤버는 불변리스트 만들어서 넘기던가 복사본을 넘기는 방식으로 진행
-단순한 vo 객체의 경우 record 객체 생성을 고려
+- 모든 클래스와 멤버의 접근성을 가능한 좁히자. 
+- package-private (이 접근제어자 사용도 고려)
+- 배열, Collection 멤버는 불변리스트 만들어서 넘기던가 복사본을 넘기는 방식으로 진행
+- 단순한 vo 객체의 경우 record 객체 생성을 고려
 ```
 - [Item16: public 클래스에서 public 필드가 아닌 접근자 메서드를 사용하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem16)
 ```text
-public 클래스에서 가변 필드를 직접 노출하해서 안된다 (불변필드도 조심)
-package 클래스나 중첩 private 클래스에서는 노출해도 큰 문제가 없다.
+- public 클래스에서 가변 필드를 직접 노출하해서 안된다 (불변필드도 조심)
+- package 클래스나 중첩 private 클래스에서는 노출해도 큰 문제가 없다.
 ```
 
 - [Item17: 변경 가능성을 최소화하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem17)
+```text
+- 클래스는 꼭 필요한 경우가 아니라면 불변이어야 한다.
+- 성능 때문에 어쩔 수 없다면 불변 클래스와 함께 가변 동반 클래스를 public 클래스로 제공하도록 하자.
+- 불변으로 만들 수 없는 클래스라도 변경할 수 있는 부분을 최소한으로 줄이도록 하자.
+- 한번 만들어진 불변객체는 재활용할 수 있게 상수로 제공하자 (쓰레드 safe)
+```
+
+- [Item18: 상속보다는 컴포지션을 사용하라](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem18)
 ```text
 ```
