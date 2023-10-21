@@ -120,3 +120,7 @@
 - 직접 형변환해야 하는 타입보다 제네릭 타입이 더 안전하고 쓰기 편하다. 
 - 기존 타입 중 제네릭이었어야 하는 게 있다면 제네릭 타입으로 변경
 ```
+
+- [Item30: 이왕이면 제네릭 메서드로 만들라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart5%2Fitem30)
+```text
+```
