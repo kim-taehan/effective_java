@@ -98,7 +98,25 @@
 ## 5장 제너릭 (자바 5)
 > 제너릭의 이점을 최대로 살리고 단전을 최소화하는 방법
 
-- [Item26: 로 타입은 사용하지 말라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart5%2Fitem25)
+- [Item26: 로 타입은 사용하지 말라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart5%2Fitem26)
 ```text
+- 클래스와 인터페이스 선언에 타입 매개변수가 쓰이면 이를 제너릭 타입이라 한다. (제너릭 클래스, 제너릭 인터페이스)
 - 로 타입(타입 매개변수가 없는 제너릭 타입) List, Collection -> List<String>, Collection<Integer>
+```
+
+- Item27: 비검사 경고를 제거하라
+```text
+- 재너릭과 관련된 비검사 경고를 무시하지 말자.   
+- 가능한 범위를 좁혀서 @SuppressWarning("unchecked") 에너테이션으로 경고르 숨기고 주석으로 근거를 남겨라.
+```
+
+- [Item28: 배열보다는 리스트를 사용하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart5%2Fitem28)
+```text
+- 제너릭은 배열보다는 조금 느릴지만 런타임 classCatException 발생을 낮춰준다.
+```
+
+- [Item29: 이왕이면 제네릭 타입으로 만들라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart5%2Fitem29)
+```text
+- 직접 형변환해야 하는 타입보다 제네릭 타입이 더 안전하고 쓰기 편하다. 
+- 기존 타입 중 제네릭이었어야 하는 게 있다면 제네릭 타입으로 변경
 ```
