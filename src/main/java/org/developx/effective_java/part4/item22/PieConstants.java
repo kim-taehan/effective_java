@@ -1,4 +1,4 @@
-package org.developx.effective_java.part4.itme22;
+package org.developx.effective_java.part4.item22;
 
 public class PieConstants {
 
