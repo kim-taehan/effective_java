@@ -1,6 +1,5 @@
-package org.developx.effective_java.part5.itme26;
+package org.developx.effective_java.part5.item26;
 
-import java.util.HashSet;
 import java.util.Set;
 
 public class UseUnknownElementRawTypeSample {
