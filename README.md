@@ -141,3 +141,10 @@
 ```text
 - @SafeVarargs: 제너릭이나 매개변수화 타입의 varargs 매개변수를 받는 모든 메서드에 추가 
 ```
+
+- [Item33: 타입 안전 이중 컨테이너를 고려하라.](src/main/java/org/developx/effective_java/part5/item33)
+```text
+- 타입 안정 이종 컨테이너 패턴: 컨테이너의 키를 매개변수화해서 값을 넣거나 뺄 때 키를 함께 제공
+- Class<T>를 활용하는 방식
+```
+
