@@ -72,8 +72,13 @@
 - default method 는 구현 클래스에서 재정의가 가능하다.  
 ```
 
-- Item22: 인터페이스는 타입을 정의하는 용도로만 사용하라.
+- [Item22: 인터페이스는 타입을 정의하는 용도로만 사용하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem22)
 ```text
 - 상수 인터페이스는 안티패턴으로 사용하지 말자 (final class + private 생성자로 제한하여 상수 클래스 생성)
 - 자바 7부터 상수 리터럴에 '_' 를 붙여 읽기 쉽게 만들수 있다 ( double pie = 3.141_592;)
+```
+
+- [Item23: 태그 달린 클래스보다는 클래스 계층구조를 활용하라](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem23)
+```text
+태그 달린 클래스: 두 가지 이상의 의미를 표한하며, 그 구분을 태그로 알려주는 클래스
 ```
