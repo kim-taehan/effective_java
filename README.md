@@ -85,5 +85,20 @@
 
 - [Item24: 멤버 클래스는 되도록 static으로 만들라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem24)
 ```text
-태그 달린 클래스: 두 가지 이상의 의미를 표한하며, 그 구분을 태그로 알려주는 클래스
+- 중첩 클래스는 다른 클래스 안에 정의된 클래스다. 중첩 클래스는 자신을 감싼 바깥 클래스에서만 쓰여야 한다.
+- (비정적) 멤버 클래스는 바깥 인스턴스로의 숨은 외부 참조를 가지게 된다 (가비지 컬렉션 문제 발생)
+```
+
+- Item25: 톱 레벨 클래스는 한 파일에 하나만 담으라.
+```text
+- [DO NOT] 톱 레벨 클래스 2개 이상의 클래스는 컴파일러 순서에 따라 행위가 달라질 수 있다. 
+- 정적 멤버 클래스로 하던가 별도의 클래스를 생성하자.
+```
+
+## 5장 제너릭 (자바 5)
+> 제너릭의 이점을 최대로 살리고 단전을 최소화하는 방법
+
+- [Item26: 로 타입은 사용하지 말라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart5%2Fitem25)
+```text
+- 로 타입(타입 매개변수가 없는 제너릭 타입) List, Collection -> List<String>, Collection<Integer>
 ```
