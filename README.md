@@ -82,3 +82,8 @@
 ```text
 태그 달린 클래스: 두 가지 이상의 의미를 표한하며, 그 구분을 태그로 알려주는 클래스
 ```
+
+- [Item24: 멤버 클래스는 되도록 static으로 만들라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem24)
+```text
+태그 달린 클래스: 두 가지 이상의 의미를 표한하며, 그 구분을 태그로 알려주는 클래스
+```
