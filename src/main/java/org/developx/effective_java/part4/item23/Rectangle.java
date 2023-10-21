@@ -1,4 +1,4 @@
-package org.developx.effective_java.part4.itme23;
+package org.developx.effective_java.part4.item23;
 
 public class Rectangle implements Figure {
 
