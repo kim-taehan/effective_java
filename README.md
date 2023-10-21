@@ -60,3 +60,9 @@
 - 좋은 API 문서란 '어떻게'가 아닌 '무엇'을 하는지를 설명 (@implSpec)
 - 상속용 클래스의 생성자는 직접적으로든 간접적으로든 재정의 가능 메서드를 호출해서는 안 된다.
 ```
+
+- [Item20: 추상 클래스보다는 인터페이스를 우선하라.](src%2Fmain%2Fjava%2Forg%2Fdevelopx%2Feffective_java%2Fpart4%2Fitem20)
+```text
+- interface 로 먼저 시도하고 interface 만으로 불가한 경우 골격 구현을 함께 제공하는 방법을 고려하자 (List, AbstractList)
+- 다중상속은 안되는 점을 기억하고 (싱어송라이터) Mixin(Comparable, AutoCloseable) 인터페이스등 기법도 활용
+```
