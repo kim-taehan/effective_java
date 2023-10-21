@@ -148,3 +148,11 @@
 - Class<T>를 활용하는 방식
 ```
 
+
+
+## 6장 열거 타입과 애너테이션
+
+- [Item34: int 상수 대신 열거 타입을 사용하라.](src/main/java/org/developx/effective_java/part6/item33)
+```text
+- enum 은 밖에서 값을 변경할 수 없기 때문에 final로 불변이며, 싱글턴으로 보장된다.
+```
