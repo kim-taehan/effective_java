@@ -127,7 +127,7 @@
 - 형변환 없이 사용할 수 있는 편이 좋으며, 많은 경우 그렇게 하려면 제네릭 메서드를 사용하자
 ```
 
-- [Item31: 한정적 와일드카드를 사용해 API 유연성을 높여라.](src/main/java/org/developx/effective_java/part5/item30)
+- [Item31: 한정적 와일드카드를 사용해 API 유연성을 높여라.](src/main/java/org/developx/effective_java/part5/item31)
 ```text
 - 불공변인 제너릭을 보안하기 위해 나온 와일드 카드 문법입니다. 
 - <? extends T>: T 하위객체까지 포함 
@@ -135,4 +135,9 @@
 - <T extends Comparable<? super T>>: Comparable 를 직접 구현하지 않고, 
   T가 상위의 객체로 Comparable를 구현한 객체까지 가능
 - PECS: producer는 extends이고 consumer는 super 이다
+```
+
+- [Item32: 제너릭과 가변인수를 함께 쓸 때는 신중하라.](src/main/java/org/developx/effective_java/part5/item32)
+```text
+- @SafeVarargs: 제너릭이나 매개변수화 타입의 varargs 매개변수를 받는 모든 메서드에 추가 
 ```
