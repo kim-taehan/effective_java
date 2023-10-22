@@ -240,8 +240,14 @@
 ```
 
 ## 8장 메서드
-- [Item49: 매개변수가 유효한지 검사하라.](src/main/java/org/developx/effective_java/part7/item49)
+- [Item49: 매개변수가 유효한지 검사하라.](src/main/java/org/developx/effective_java/part8/item49)
 ```text
 - 메서드는 최대한 범용적으로 설계해야 한다. 메서드가 건네받은 값으로 제대로 동작할 수 있다면, 매개변수 제약은 적을수록 좋다.
 - 매개변수들에 어떤 제약이 있을지 생각해야 하며, 그 제약들을 문서화하고 메서드 코드 시작 부분에서 명시적으로 검사해야 한다.
+```
+
+- [Item50: 적시에 방어적 복사본을 만들라.](src/main/java/org/developx/effective_java/part8/item50)
+```text
+- java.util.Date 는 가변이고 낡은 API 이니 새로운 코드 작성시에 Instant, LocalDateTime, ZonedDateTime 등을 사용하자.
+- 가변 매개변수의 경우 방어적 복사를 통해 값을 변경할 수 없도록 하자.
 ```
