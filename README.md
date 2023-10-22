@@ -200,7 +200,10 @@
 
 - [Item42: 익명 클래스보다는 람다를 사용하라.](src/main/java/org/developx/effective_java/part7/item42)
 ```text
-[DO NOT]
 - 람다는 함수형 인터페이스에서만(하나의 메서드만 가진 인터페이스) 사용.
 - 익명클래스는 추상클래스나 여러 메서드를 가진 인터페이스를 구현할 때 사용. 
+```
+
+- [Item43: 람다보다는 메서드 참조를 사용하라.](src/main/java/org/developx/effective_java/part7/item43)
+```text
 ```
