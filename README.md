@@ -206,4 +206,6 @@
 
 - [Item43: 람다보다는 메서드 참조를 사용하라.](src/main/java/org/developx/effective_java/part7/item43)
 ```text
+- 매개변수가 같은 메서드를 호출시에 람다식이 아닌 메서드참조 방식으로 처리할 수 있다.
+- 둘중에 길이가 짧고 보기 좋은 쪽으로 쓰자.
 ```
