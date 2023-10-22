@@ -148,11 +148,27 @@
 - Class<T>를 활용하는 방식
 ```
 
-
-
 ## 6장 열거 타입과 애너테이션
 
-- [Item34: int 상수 대신 열거 타입을 사용하라.](src/main/java/org/developx/effective_java/part6/item33)
+- [Item34: int 상수 대신 열거 타입을 사용하라.](src/main/java/org/developx/effective_java/part6/item34)
 ```text
 - enum 은 밖에서 값을 변경할 수 없기 때문에 final로 불변이며, 싱글턴으로 보장된다.
+```
+
+- Item35: ordinal 메서드 대신 인스턴스 필드를 사용하라.
+```text
+- enum에서 제공하는 ordinal 메서드는 사용하지 말자 (해당상수가 몇번째인지 전달)
+- JPA에서 Entity 에서 Enumulate 와 같은 의미이다.
+```
+
+- Item36: 비트 필드 대신 EnumSet을 사용하라.
+```text
+- EnumSet 클래스가 비트 필드 수준의 명료함과 성능, 그리고 열거 타입의 장점까지 제공해준다.
+- EnumSet 대신 Collections.unmodifiableSet으로 EnumSet을 감싸 사용할 수 있다. (불변으로 사용시)
+```
+
+- [Item37: ordinal 인덱싱 대신 EnumMap을 사용하라.](src/main/java/org/developx/effective_java/part6/item37)
+```text
+- enum에서 제공하는 ordinal 메서드는 사용하지 말자
+- EnumMap, EnumSet을 적극 사용하자
 ```
