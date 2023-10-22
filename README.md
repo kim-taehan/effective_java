@@ -236,4 +236,5 @@
 
 - [Item48: 스트림 병렬화는 주의해서 적용하라.](src/main/java/org/developx/effective_java/part7/item48)
 ```text
+- 스트림 병렬화는 오직 성능 최적화 수단이다. 하지만 확신없이 사용하지 마라.
 ```
