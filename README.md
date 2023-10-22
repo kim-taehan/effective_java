@@ -227,3 +227,9 @@
 - foreach 연산은 병렬화 할 수 없는 반복문이라 계산하는데 사용하지 말자 (이것만 썼던것 같은데)
 - 수집기(collector) 사용에 익숙해지자. (toList, toSet, toMap, groupingBy, joining)
 ```
+
+- [Item47: 반환 타입으로는 스트림보다 컬렉션이 낫다.](src/main/java/org/developx/effective_java/part7/item47)
+```text
+- 원소 시퀀스를 반환하는 메서드를 작성할 때, 컬렉션을 반환하도록 하자. (stream 인터페이스가 Iterable을 지원하지 않음)
+- Collection 인터페이스는 Iterable의 하위 타입이고, stream 메서드도 제공하니 둘다 제공하기 때문.
+```
