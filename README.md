@@ -209,3 +209,9 @@
 - 매개변수가 같은 메서드를 호출시에 람다식이 아닌 메서드참조 방식으로 처리할 수 있다.
 - 둘중에 길이가 짧고 보기 좋은 쪽으로 쓰자.
 ```
+
+- [Item44: 표준 함수형 인터페이스를 사용하라.](src/main/java/org/developx/effective_java/part7/item44)
+```text
+- java.util.function 에 정의된 표준 함수형 인터페이스를 사용하자. (Supplier, Function, Consumer, Predicate)
+- @FunctionalInterface 애너테이션으로 함수형 인터페이스 임을 알려라.
+```
