@@ -12,9 +12,4 @@ public class Item43 {
         // 메서드 참조
         Integer mergeReference = map.merge("1", 30, Integer::sum);
     }
-
-    void methodReferenceType() {
-        String str = "";
-        str.toLowerCase();
-    }
 }
