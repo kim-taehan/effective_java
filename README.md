@@ -233,3 +233,7 @@
 - 원소 시퀀스를 반환하는 메서드를 작성할 때, 컬렉션을 반환하도록 하자. (stream 인터페이스가 Iterable을 지원하지 않음)
 - Collection 인터페이스는 Iterable의 하위 타입이고, stream 메서드도 제공하니 둘다 제공하기 때문.
 ```
+
+- [Item48: 스트림 병렬화는 주의해서 적용하라.](src/main/java/org/developx/effective_java/part7/item48)
+```text
+```
