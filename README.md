@@ -172,3 +172,8 @@
 - enum에서 제공하는 ordinal 메서드는 사용하지 말자
 - EnumMap, EnumSet을 적극 사용하자
 ```
+
+- [Item38: 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.](src/main/java/org/developx/effective_java/part6/item38)
+```text
+- enum 을 상속 받을 수는 없지만 인터페이스를 implements 할 수 있다. (확장)
+```
