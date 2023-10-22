@@ -215,3 +215,15 @@
 - java.util.function 에 정의된 표준 함수형 인터페이스를 사용하자. (Supplier, Function, Consumer, Predicate)
 - @FunctionalInterface 애너테이션으로 함수형 인터페이스 임을 알려라.
 ```
+
+- Item45: 스트림은 주의해서 사용하라.
+```text
+- 람다에서는 final이 아닌 지역변수를 수정할 수 없다. 
+- return, break, continue 사용할 수 없다.
+```
+
+- [Item46: 스트림에서는 부작용 없는 함수를 사용하라.](src/main/java/org/developx/effective_java/part7/item46)
+```text
+- foreach 연산은 병렬화 할 수 없는 반복문이라 계산하는데 사용하지 말자 (이것만 썼던것 같은데)
+- 수집기(collector) 사용에 익숙해지자. (toList, toSet, toMap, groupingBy, joining)
+```
