@@ -251,3 +251,24 @@
 - java.util.Date 는 가변이고 낡은 API 이니 새로운 코드 작성시에 Instant, LocalDateTime, ZonedDateTime 등을 사용하자.
 - 가변 매개변수의 경우 방어적 복사를 통해 값을 변경할 수 없도록 하자.
 ```
+
+- [Item51: 메서드 시그니처를 신중히 설계하라.](src/main/java/org/developx/effective_java/part8/item51)
+```text
+- 메서드 이름을 신중이 짓자 (이게 제일 어렵다고..)
+- 편의 메서드를 너무 많이 만들지 말자 
+- 매개변수 목록은 짥게 유지하자 (4개 이하)
+- 매개변수 타입은 최대한 추상화(interface) 하자
+- boolean 보다는 원소 2개짜리 enum을 사용하자
+```
+
+- Item52: 다중정의는 신중히 사용하라.
+```text
+- API 사용자가 매개변수를 넘길 때, 어떤 다중정의 메서드가 호출될지 모른다면 프로그램은 오작동하기 쉽다.
+- 다중정의시, 서로 다른 함수형 인터페이스 사용하지 말자 (ExecutorService.submit)
+- 안전하고 보수적으로 가려면 매개변수 수가 같은 다중정의는 만들지 말자.
+- 가변 인수를 매개변수로 사용한다면 다중정의는 사용하면 안 된다.
+```
+
+- [Item53: 가변인수는 신중히 사용하라.](src/main/java/org/developx/effective_java/part8/item53)
+```text
+```
