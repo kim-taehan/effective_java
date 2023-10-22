@@ -271,4 +271,6 @@
 
 - [Item53: 가변인수는 신중히 사용하라.](src/main/java/org/developx/effective_java/part8/item53)
 ```text
+- 인수 개수가 일정하지 않은 메서드를 정의시에 가변인수 사용하자.
+- 필수 매개변수는 가변인수 앞에 두고, 성능문제를 고민하자.
 ```
