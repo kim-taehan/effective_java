@@ -387,3 +387,7 @@
 - Exception, RuntimeException, Throwable, Error는 직접 재사용 하지 말자.
 - 인수 값이 무엇이었든 어자피 실패했을 때는 IlleagalStateException 그렇지 않으면 IlleagalArgumentException을 던지자
 ```
+- 
+- [Item73: 추상화 수준에 맞는 예외를 던지라.](src/main/java/org/developx/effective_java/part10/item73)
+```text
+```
