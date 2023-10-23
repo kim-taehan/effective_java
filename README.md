@@ -440,9 +440,16 @@
 - Callable, Future 및 Executor
 - CompletableFuture
 ```
+
 - [Item81: wait와 notify보다는 동시성 유틸리티를 애용하라.](src/main/java/org/developx/effective_java/part11/item81)
 ```text
 - java.concurrent 고수준 유틸리티는 실행자 프레임워크, 동시성 컬렉션, 동기화 장치로 분류된다. 
 - 동시성 컬렉션: List, Queue, Map 같은 표준 컬렉션 인터페이스에 동시성을 가미해 구현한 고성능 컬렉션이다
 - 동기화 장치: 스레드가 다른 스레드를 기다릴 수 있게 하여, 서로 작업을 조율할 수 있게 해준다. (CountDownLatch, Semaphore, Phaser)
+```
+
+- [Item82: 스레드 안전성 수준을 문서화 하라.](src/main/java/org/developx/effective_java/part11/item82)
+```text
+- 불변, 무조건적 스레드 안전, 조건부 스레드 안전, 스레드 안전하지 않음, 스레드 적대적 
+- 무조건적 스레드 안전 클래스 작성시에는 synchronized 메서드가 아닌 비공개 락 객체를 사용하자.
 ```
