@@ -434,4 +434,15 @@
 - 자바의 동시성 컬렉션 라이브러리를 사용하자. (java.util.concurrent)
 ```
 
-
+- [Item80: 스레드보다 실행자, 태스크, 스트림을 애용하라.](https://github.com/kim-taehan/java-study/blob/main/src/test/java/org/developx/javastudy/concurrency/README.md)
+```text
+- Thread와 Runnable
+- Callable, Future 및 Executor
+- CompletableFuture
+```
+- [Item81: wait와 notify보다는 동시성 유틸리티를 애용하라.](src/main/java/org/developx/effective_java/part11/item81)
+```text
+- java.concurrent 고수준 유틸리티는 실행자 프레임워크, 동시성 컬렉션, 동기화 장치로 분류된다. 
+- 동시성 컬렉션: List, Queue, Map 같은 표준 컬렉션 인터페이스에 동시성을 가미해 구현한 고성능 컬렉션이다
+- 동기화 장치: 스레드가 다른 스레드를 기다릴 수 있게 하여, 서로 작업을 조율할 수 있게 해준다. (CountDownLatch, Semaphore, Phaser)
+```
