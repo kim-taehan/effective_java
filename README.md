@@ -355,7 +355,7 @@
 - 단 API, 네트워크 프로토콜, 영구 저장용 데이터 포맷을 설계시에는 성능을 염두하자.
 ```
 
-- [Item67: 일반적으로 통용되는 명명 규칙을 따르라.](src/main/java/org/developx/effective_java/part9/item67)
+- [Item68: 일반적으로 통용되는 명명 규칙을 따르라.](src/main/java/org/developx/effective_java/part9/item68)
 ```text
 - 자바의 명명규칙을 인지하고 잘 따르도록 하자.
 ```
