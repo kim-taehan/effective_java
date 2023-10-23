@@ -274,3 +274,45 @@
 - 인수 개수가 일정하지 않은 메서드를 정의시에 가변인수 사용하자.
 - 필수 매개변수는 가변인수 앞에 두고, 성능문제를 고민하자.
 ```
+
+- Item54: null이 아닌, 빈 컬렉션이나 배열을 반환하라.
+ ```text
+- null을 반환하는 API는 사용하기 어렵고, 오류처리 코드도 늘어난다. 
+- 성능도 좋은 것도 아니다. (가능하다면 불변 컬렉션을 반환하라 : Collections.emptyList)
+```
+
+- Item55: 옵셔널 반환은 신중히 하라.
+```text
+- Optional 반환하는 메서드에서는 절대 null을 반환하지 마라.
+- 기본값을 미리 만드는 orElse 보다, 값이 필요할때 호출되는 orElseGet(Supplier<T>) 를 활용하자
+- 컬렉션, 스트림, 배열 같은 컨테이너 타입은 optional로 감싸면 안된다.
+- Optional 의 항상 비용이 든다는 것을 감안하고 사용하자. 
+```
+
+
+## 9장 일반적인 프로그램밍 원칙
+> 지역변수, 제어구조, 라이브러리, 데이터 타입, 리플렉션, 네이티브 메서드
+
+- Item57: 지역변수의 범위를 최소화하라.
+```text
+- 지역 변수는 가장 처음 쓰일 때 선언하면서 초기화하자.
+- 메서드를 작게 유지하고 한 가지 기능에 집중하자.
+```
+
+- Item58: 전통적인 for 문보다는 for-each 문을 사용하라.
+```text
+- for-each 문은 Iterable 인터페이스를 구현한 객체여야 한다.
+- for 문보다는 for-each(enhanced fo statement) 문 사용을 고려하자.
+```
+
+- Item58: 라이브러리를 익히고 사용하라.
+```text
+- 최소한 java.lang, java.util, java.io 의 패키지에 있는 API는 공부하라.
+- java.util.Random은 사용하지 말자 (TreadLocalRandom, SplittableRandom-병렬스트림)
+```
+
+- [Item59: 정확한 답이 필요하다면 float와 double은 피하라.](src/main/java/org/developx/effective_java/part9/item59)
+```text
+- double, float는 부동소수점을 빠르게 계산하기 위한 것이지 정확성을 가지지 못했다.
+- 정확한 금액은 BigDecimal(성능이슈), 정수형(소수점 처리X) 로 하자.
+```
