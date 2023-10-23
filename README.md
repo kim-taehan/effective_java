@@ -428,4 +428,10 @@
 > AtomicLong, AtomicInteger 등을 사용해서 원자성까지 보존할 수 있다.
 ```
 
+- [Item79: 과도화 동기화는 피하라.](src/main/java/org/developx/effective_java/part11/item79)
+```text
+- 동기화 영역에서는 가능한 일을 적게 해야 한다.
+- 자바의 동시성 컬렉션 라이브러리를 사용하자. (java.util.concurrent)
+```
+
 
